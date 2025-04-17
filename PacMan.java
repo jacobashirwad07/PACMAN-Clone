@@ -284,9 +284,6 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
         g.setColor(Color.WHITE);
         g.drawRect(boardWidth / 2 - 130, boardHeight / 2 - 60, 300, 70); // Draw the box
         g.setFont(new Font("Arial", Font.PLAIN, 14));
-        g.drawString("JACOB ASHIRWAD M P URK23EC6039", boardWidth / 2 - 120, boardHeight / 2 - 40);
-        g.drawString("ABEN M PHILIP URK23EC6001", boardWidth / 2 - 120, boardHeight / 2 - 20);
-        g.drawString("JEFRIS SAJU DANI URK23EC6012", boardWidth / 2 - 120, boardHeight / 2);
         g.setFont(new Font("Arial", Font.BOLD, 14)); // Set bold font
         g.drawString("", boardWidth / 2 - 120, boardHeight / 2 + 10); // Add a gap]
         g.drawString("", boardWidth / 2 - 120, boardHeight / 2 + 10); // Add a gap
